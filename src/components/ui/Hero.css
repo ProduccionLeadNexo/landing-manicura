@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #050506;
+  background: #ed9ecd;
   color: #ffffff;
   overflow: hidden;
 }
@@ -35,15 +35,15 @@
   background:
     linear-gradient(
       to bottom,
-      rgba(5, 5, 6, 0.35) 0%,
-      rgba(5, 5, 6, 0.72) 55%,
-      rgba(5, 5, 6, 0.98) 100%
+      rgba(237, 158, 205, 0.25),
+      rgba(237, 158, 205, 0.35),
+      rgba(237, 158, 205, 0.55)
     ),
     linear-gradient(
       to right,
-      rgba(5, 5, 6, 0.55),
-      rgba(5, 5, 6, 0.25),
-      rgba(5, 5, 6, 0.55)
+      rgba(237, 158, 205, 0.35),
+      rgba(237, 158, 205, 0.20),
+      rgba(237, 158, 205, 0.35)
     );
 }
 
@@ -67,13 +67,13 @@
 }
 
 .hero-content h1 span {
-  color: #d6aa18;
+  color: #d6188a;
 }
 
 .hero-content p {
   max-width: 780px;
   margin: 30px auto 0;
-  color: #c7c7cf;
+  color: #000000;
   font-size: clamp(1.05rem, 2vw, 1.35rem);
   line-height: 1.7;
 }
@@ -100,14 +100,14 @@
 }
 
 .hero-button-primary {
-  background: #d6aa18;
-  color: #080808;
-  border: 1px solid #d6aa18;
+  background: #d6188a;
+  color: #ffffff;
+  border: 1px solid #d6188a;
 }
 
 .hero-button-primary:hover {
-  background: #efc229;
-  border-color: #efc229;
+  background: #d6188a;
+  border-color: #ed9ecd;
   transform: translateY(-3px);
   box-shadow: 0 14px 28px rgba(214, 170, 24, 0.22);
 }
@@ -115,12 +115,12 @@
 .hero-button-outline {
   background: rgba(5, 5, 6, 0.45);
   color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  border: 2px solid #d6188a;
 }
 
 .hero-button-outline:hover {
-  background: #ffffff;
-  color: #080808;
+  background: #d6188a;
+  color: #ed9ecd;
   transform: translateY(-3px);
 }
 

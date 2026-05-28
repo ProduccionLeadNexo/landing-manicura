@@ -1,12 +1,13 @@
 import { NavLink } from "./NavLink";
 import "./Navbar.css";
+import { FaInstagram, FaFacebookF, FaTiktok } from "react-icons/fa";
 
 export const Navbar = () => {
   return (
     <header className="navbar">
       <div className="navbar-container">
         <a href="#inicio" className="navbar-logo">
-          <img src="/logo.png" alt="BAMBINO BARBERSHOP & SALON" />
+          <img src="/logo.png" alt="Salón de manicura y peluquería" />
         </a>
 
         <nav className="navbar-menu">
@@ -26,7 +27,7 @@ export const Navbar = () => {
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
-              <i className="bi bi-instagram"></i>
+              <FaInstagram />
             </a>
 
             <a
@@ -35,7 +36,7 @@ export const Navbar = () => {
               rel="noopener noreferrer"
               aria-label="Facebook"
             >
-              <i className="bi bi-facebook"></i>
+              <FaFacebookF />
             </a>
 
             <a
@@ -44,7 +45,7 @@ export const Navbar = () => {
               rel="noopener noreferrer"
               aria-label="TikTok"
             >
-              <i className="bi bi-tiktok"></i>
+              <FaTiktok />
             </a>
           </div>
 

@@ -1,7 +1,7 @@
 .services-section {
   width: 100%;
   padding: 90px 20px;
-  background: #050506;
+  background: #ed9ecd;
   color: #ffffff;
 }
 
@@ -18,7 +18,7 @@
 .services-header span {
   display: block;
   margin-bottom: 14px;
-  color: #d6aa18;
+  color: #d6188a;
   font-size: 0.9rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -34,13 +34,13 @@
 }
 
 .services-header h2 span {
-  color: #d6aa18;
+  color: #d6188a;
 }
 
 .services-header p {
   max-width: 760px;
   margin: 18px auto 0;
-  color: #b9b9c3;
+  color: #000000;
   font-size: 1.15rem;
   line-height: 1.7;
 }
@@ -55,7 +55,7 @@
   min-height: 230px;
   padding: 36px 32px;
   border-radius: 18px;
-  background: #09090b;
+  background: #d6188a;
   border: 1px solid rgba(255, 255, 255, 0.12);
   text-align: left;
   transition: 0.25s ease;
@@ -64,7 +64,7 @@
 
 .service-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(214, 170, 24, 0.55);
+  border-color: rgba(255, 143, 227, 0.55);
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
 }
 
@@ -74,7 +74,7 @@
   margin-bottom: 28px;
   border-radius: 8px;
   background: rgba(214, 170, 24, 0.12);
-  color: #d6aa18;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +90,7 @@
 
 .service-card p {
   margin: 0;
-  color: #b9b9c3;
+  color: #000000;
   font-size: 1rem;
   line-height: 1.7;
 }
@@ -99,7 +99,7 @@
   position: absolute;
   top: 34px;
   right: 32px;
-  color: #d6aa18;
+  color: #ffffff;
   font-size: 1.55rem;
   font-weight: 950;
 }

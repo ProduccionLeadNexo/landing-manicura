@@ -1,42 +1,48 @@
-import { Scissors, Droplet, Wind } from "lucide-react";
+import { FaCut, FaHandSparkles, FaWind } from "react-icons/fa";
 import "./Services.css";
 
 export const Services = () => {
   const services = [
     {
-      icon: <Scissors size={28} />,
-      title: "Corte clásico",
-      description: "Corte de cabello a tijera o máquina, con acabado profesional y peinado.",
+      icon: <FaHandSparkles size={28} />,
+      title: "Manicura Tradicional",
+      description:
+        "Servicio ideal para mantener tus uñas limpias, cuidadas y con un acabado delicado. Incluye limado, cuidado de cutículas y esmaltado a elección.",
       price: "$12.500",
     },
     {
-      icon: <Scissors size={28} />,
-      title: "Arreglo de barba",
-      description: "Diseño, recorte y perfilado de barba con terminación profesional.",
+      icon: <FaHandSparkles size={28} />,
+      title: "Esmaltado Permanente",
+      description:
+        "Perfecto para lucir uñas impecables por más tiempo, con brillo intenso y mayor duración. Disponible en variedad de colores y estilos.",
       price: "$15.000",
     },
     {
-      icon: <Droplet size={28} />,
-      title: "Afeitado tradicional",
-      description: "Ritual de afeitado con toalla caliente, espuma clásica y navaja.",
+      icon: <FaHandSparkles size={28} />,
+      title: "Diseño de Uñas Personalizado",
+      description:
+        "Creamos diseños únicos según tu estilo, ocasión o preferencia. Desde detalles sutiles hasta decoraciones más llamativas y modernas.",
       price: "$20.000",
     },
     {
-      icon: <Scissors size={28} />,
-      title: "Corte + barba",
-      description: "Paquete completo de corte de cabello y arreglo de barba.",
-      price: "$35.000",
+      icon: <FaCut size={28} />,
+      title: "Corte de Cabello",
+      description:
+        "Cortes modernos y personalizados según tu rostro, estilo y preferencia. Te asesoramos para lograr un look fresco, cómodo y favorecedor.",
+      price: "$15.000",
     },
     {
-      icon: <Scissors size={28} />,
-      title: "Corte niño",
-      description: "Corte especial para los más pequeños, con paciencia y estilo.",
+      icon: <FaCut size={28} />,
+      title: "Coloración y Tintura",
+      description:
+        "Renueva tu imagen con coloración profesional, tonos naturales o cambios más atrevidos, cuidando siempre la salud y brillo de tu cabello.",
       price: "$18.000",
     },
     {
-      icon: <Wind size={28} />,
-      title: "Tratamiento facial",
-      description: "Limpieza facial profunda, exfoliación e hidratación para tu piel.",
+      icon: <FaWind size={28} />,
+      title: "Peinados y Styling",
+      description:
+        "Peinados para eventos, ocasiones especiales o cambios de look. Trabajamos con dedicación para lograr un resultado elegante y duradero.",
       price: "$30.000",
     },
   ];
@@ -45,12 +51,16 @@ export const Services = () => {
     <section id="servicios" className="services-section">
       <div className="services-container">
         <div className="services-header">
+          <span className="services-subtitle">Belleza y estilo</span>
+
           <h2>
             Nuestros <span>Servicios</span>
           </h2>
+
           <p>
-            Ofrecemos una amplia gama de servicios de barbería tradicional y
-            moderna para satisfacer todas tus necesidades de estilo.
+            Ofrecemos servicios de peluquería y manicura profesional para cuidar
+            tu imagen, realzar tu estilo y entregarte una experiencia cercana,
+            moderna y personalizada.
           </p>
         </div>
 
@@ -58,8 +68,11 @@ export const Services = () => {
           {services.map((service) => (
             <div className="service-card" key={service.title}>
               <div className="service-icon">{service.icon}</div>
+
               <span className="service-price">{service.price}</span>
+
               <h3>{service.title}</h3>
+
               <p>{service.description}</p>
             </div>
           ))}

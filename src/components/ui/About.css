@@ -3,7 +3,7 @@
 .about-section {
   width: 100%;
   padding: 100px 20px;
-  background: #050506;
+  background: #ed9ecd;
   color: #ffffff;
 }
 
@@ -47,12 +47,12 @@
 }
 
 .about-content h2 span {
-  color: #d6aa18;
+  color: #d6188a;
 }
 
 .about-content p {
   margin: 24px 0 0;
-  color: #b9b9c3;
+  color: #000000;
   font-size: 1.12rem;
   line-height: 1.8;
 }

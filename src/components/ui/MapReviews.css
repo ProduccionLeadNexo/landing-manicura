@@ -3,7 +3,7 @@
 .map-reviews-section {
   width: 100%;
   padding: 75px 20px;
-  background: #050506;
+  background: #ed9ecd;
   color: #ffffff;
 }
 
@@ -24,7 +24,7 @@
 .reviews-card span {
   display: block;
   margin-bottom: 14px;
-  color: #d6aa18;
+  color: #d6188a;
   font-size: 0.9rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -41,7 +41,7 @@
 }
 
 .map-reviews-header h2 strong {
-  color: #d6aa18;
+  color: #d6188a;
 }
 
 .map-reviews-header p {
@@ -110,8 +110,8 @@
   min-height: 48px;
   padding: 0 24px;
   border-radius: 6px;
-  background: #d6aa18;
-  color: #080808;
+  background: #d6188a;
+  color: #ffffff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -123,7 +123,7 @@
 
 .map-button:hover,
 .reviews-button:hover {
-  background: #efc229;
+  background: #d6188a;
   transform: translateY(-2px);
 }
 
@@ -163,7 +163,7 @@
   padding: 20px 22px;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.035);
-  border: 1px solid rgba(214, 170, 24, 0.25);
+  border: 1px solid#e760b1;
   display: flex;
   flex-direction: column;
   align-items: center;

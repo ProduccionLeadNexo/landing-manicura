@@ -1,10 +1,11 @@
 import "./WhatsAppButton.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const WhatsAppButton = () => {
   const numeroWhatsapp = "56997788351";
 
   const mensaje =
-    "Hola, quiero reservar una cita en BAMBINO BARBERSHOP & SALON.";
+    "Hola, quiero reservar una cita en nuestro salón de manicura y peluquería.";
 
   const abrirWhatsapp = () => {
     const paginaActual = window.location.href;
@@ -23,7 +24,7 @@ export const WhatsAppButton = () => {
       onClick={abrirWhatsapp}
       aria-label="Contactar por WhatsApp"
     >
-      <i className="bi bi-whatsapp"></i>
+      <FaWhatsapp />
     </button>
   );
 };

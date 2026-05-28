@@ -12,7 +12,7 @@ export const MapReviews = () => {
           </h2>
 
           <p>
-            Visítanos en nuestra barbería y revisa las reseñas reales de
+            Visítanos en nuestro salon de belleza y revisa las reseñas reales de
             nuestros clientes directamente en Google Maps.
           </p>
         </div>
@@ -21,7 +21,7 @@ export const MapReviews = () => {
           <div className="map-card">
             <div className="map-frame">
               <iframe
-                title="Ubicación BAMBINO BARBERSHOP & SALON"
+                title="Ubicación Salon de belleza y manicura"
                 src="https://www.google.com/maps?q=BAMBINO%20BARBERSHOP%20%26%20SALON%20Maip%C3%BA%20Chile&output=embed"
                 width="100%"
                 height="100%"
@@ -34,7 +34,7 @@ export const MapReviews = () => {
 
             <div className="map-info">
               <div>
-                <h4>BAMBINO BARBERSHOP & SALON</h4>
+                <h4>Salon de Belleza y Manicura</h4>
                 <p>Av. Principal 123, Maipú, Chile</p>
               </div>
 
@@ -55,7 +55,7 @@ export const MapReviews = () => {
             <h3>Mira lo que opinan nuestros clientes</h3>
 
             <p>
-              Revisa las opiniones reales de BAMBINO BARBERSHOP & SALON
+              Revisa las opiniones reales de SALÓN DE BELLEZA Y MANICURA
               directamente en Google Maps y conoce la experiencia de otros
               clientes.
             </p>
