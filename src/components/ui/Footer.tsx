@@ -59,9 +59,18 @@ export const Footer = () => {
         <div className="footer-contact">
           <h4>Datos de contacto</h4>
           <p>Salón de Manicura y Peluquería</p>
-          <p>Av. Principal 123, Maipú, Chile</p>
-          <p>WhatsApp: +56 9 9778 8351</p>
-          <p>Horario: Lun a Sáb 10:00 - 20:00</p>
+          <p>Av. Parque Central 707, Maipú, Chile</p>
+          <p>
+            WhatsApp:{" "}
+            <a
+              href="https://wa.me/56990138613"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              +569 90138613
+            </a>
+          </p>
+          <p>Horario: Lun a Sáb 10:30 - 20:00</p>
         </div>
 
         <div className="footer-action">

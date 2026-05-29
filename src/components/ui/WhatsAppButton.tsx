@@ -2,7 +2,7 @@ import "./WhatsAppButton.css";
 import { FaWhatsapp } from "react-icons/fa";
 
 export const WhatsAppButton = () => {
-  const numeroWhatsapp = "56997788351";
+  const numeroWhatsapp = "56990138613";
 
   const mensaje =
     "Hola, quiero reservar una cita en nuestro salón de manicura y peluquería.";

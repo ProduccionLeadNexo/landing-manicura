@@ -6,7 +6,7 @@ export const About = () => {
       <div className="about-container">
         <div className="about-image-wrapper">
           <img
-            src="https://cosmetologas.com/wp-content/uploads/2025/08/french_nails_disenos_03_0825-700x570.jpg"
+            src="/imagen6.png"
             alt="Barbería"
             className="about-image"
           />

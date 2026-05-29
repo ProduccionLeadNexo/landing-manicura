@@ -34,7 +34,7 @@ const trabajos = [
   },
   {
     id: 6,
-    imagen: "/trabajo6.jpg",
+    imagen: "/imagen7.png",
     alt: "Peinado profesional para ocasión especial",
     titulo: "Peinado elegante",
   },

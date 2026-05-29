@@ -15,7 +15,7 @@ export const Hero = () => {
 
       <div className="hero-content">
         <h1>
-          Salón de Manicura y Peluquería en <span>Maipú</span>
+          Salón de Peluquería y Manicura en<span>Maipú</span>
         </h1>
 
         <p>

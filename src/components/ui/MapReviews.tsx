@@ -12,7 +12,7 @@ export const MapReviews = () => {
           </h2>
 
           <p>
-            Visítanos en nuestro salon de belleza y revisa las reseñas reales de
+            Visítanos en nuestro salón de belleza y revisa las reseñas reales de
             nuestros clientes directamente en Google Maps.
           </p>
         </div>
@@ -21,8 +21,8 @@ export const MapReviews = () => {
           <div className="map-card">
             <div className="map-frame">
               <iframe
-                title="Ubicación Salon de belleza y manicura"
-                src="https://www.google.com/maps?q=BAMBINO%20BARBERSHOP%20%26%20SALON%20Maip%C3%BA%20Chile&output=embed"
+                title="Ubicación Salón Bertys"
+                src="https://www.google.com/maps?q=Sal%C3%B3n%20Bertys%20Av.%20Parque%20Central%20Pte.%20707%20Maip%C3%BA%20Chile&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -34,12 +34,12 @@ export const MapReviews = () => {
 
             <div className="map-info">
               <div>
-                <h4>Salon de Belleza y Manicura</h4>
-                <p>Av. Principal 123, Maipú, Chile</p>
+                <h4>Salón Bertys</h4>
+                <p>Av. Parque Central Pte. 707, Maipú, Chile</p>
               </div>
 
               <a
-                href="https://maps.app.goo.gl/cTYeBDm45uoFi8vDA"
+                href="https://www.google.com/maps/place/Sal%C3%B3n+Bertys/@-33.5586597,-70.7900168,17z/data=!3m1!4b1!4m6!3m5!1s0x9662dd09fab48c33:0x11caba355ff6c467!8m2!3d-33.5586597!4d-70.7900168!16s%2Fg%2F11fpmcddmp?hl=es-419&entry=ttu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="map-button"
@@ -55,9 +55,8 @@ export const MapReviews = () => {
             <h3>Mira lo que opinan nuestros clientes</h3>
 
             <p>
-              Revisa las opiniones reales de SALÓN DE BELLEZA Y MANICURA
-              directamente en Google Maps y conoce la experiencia de otros
-              clientes.
+              Revisa las opiniones reales de Salón Bertys directamente en Google
+              Maps y conoce la experiencia de otros clientes.
             </p>
 
             <div className="reviews-stars-wrapper">
@@ -70,14 +69,17 @@ export const MapReviews = () => {
               <small>Opiniones reales en Google Maps</small>
             </div>
 
-            <a
-              href="https://maps.app.goo.gl/cTYeBDm45uoFi8vDA"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="reviews-button"
-            >
-              Ver reseñas en Google
-            </a>
+            <div className="reviews-buttons">
+              <a
+                href="https://www.google.com/maps/place/Sal%C3%B3n+Bertys/@-33.5586597,-70.7900168,17z/data=!4m8!3m7!1s0x9662dd09fab48c33:0x11caba355ff6c467!8m2!3d-33.5586597!4d-70.7900168!9m1!1b1!16s%2Fg%2F11fpmcddmp?hl=es-419"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="reviews-button"
+              >
+                Ver reseñas en Google
+              </a>
+
+            </div>
           </div>
         </div>
       </div>
