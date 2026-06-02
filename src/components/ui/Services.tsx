@@ -8,42 +8,42 @@ export const Services = () => {
       title: "Manicura Tradicional",
       description:
         "Servicio ideal para mantener tus uñas limpias, cuidadas y con un acabado delicado. Incluye limado, cuidado de cutículas y esmaltado a elección.",
-      price: "$12.500",
+      price: "$12.900",
     },
     {
       icon: <FaHandSparkles size={28} />,
       title: "Esmaltado Permanente",
       description:
         "Perfecto para lucir uñas impecables por más tiempo, con brillo intenso y mayor duración. Disponible en variedad de colores y estilos.",
-      price: "$15.000",
+      price: "$15.900",
     },
     {
       icon: <FaHandSparkles size={28} />,
       title: "Diseño de Uñas Personalizado",
       description:
         "Creamos diseños únicos según tu estilo, ocasión o preferencia. Desde detalles sutiles hasta decoraciones más llamativas y modernas.",
-      price: "$20.000",
+      price: "$20.900",
     },
     {
       icon: <FaCut size={28} />,
       title: "Corte de Cabello",
       description:
         "Cortes modernos y personalizados según tu rostro, estilo y preferencia. Te asesoramos para lograr un look fresco, cómodo y favorecedor.",
-      price: "$15.000",
+      price: "$15.900",
     },
     {
       icon: <FaCut size={28} />,
       title: "Coloración y Tintura",
       description:
         "Renueva tu imagen con coloración profesional, tonos naturales o cambios más atrevidos, cuidando siempre la salud y brillo de tu cabello.",
-      price: "$18.000",
+      price: "$18.900",
     },
     {
       icon: <FaWind size={28} />,
       title: "Peinados y Styling",
       description:
         "Peinados para eventos, ocasiones especiales o cambios de look. Trabajamos con dedicación para lograr un resultado elegante y duradero.",
-      price: "$30.000",
+      price: "$25.900",
     },
   ];
 
