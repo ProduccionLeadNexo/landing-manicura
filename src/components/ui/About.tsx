@@ -14,25 +14,24 @@ export const About = () => {
 
         <div className="about-content">
           <h2>
-            Más que una limpieza, tranquilidad para <span>tu espacio</span>
+            Más que una manicura, <span>una experiencia</span>
           </h2>
 
           <p>
-            Nacimos con el propósito de entregar un servicio de limpieza confiable,
-            responsable y adaptado a las necesidades de cada cliente, ayudando a mantener
-            espacios limpios, ordenados y agradables.
+            Fundado con pasión por la belleza y el cuidado personal, nuestro salón es un
+            espacio pensado para quienes buscan sentirse bien, renovar su estilo y disfrutar
+            de una experiencia especial.
           </p>
 
           <p>
-            Nos enfocamos en brindar una atención cercana y profesional, ideal para hogares,
-            departamentos, oficinas y espacios comerciales que buscan limpieza de calidad y
-            cuidado en cada detalle.
+            Nos enorgullecemos de ofrecer un servicio cercano y profesional en un ambiente
+            cómodo, donde puedes relajarte, recibir una atención personalizada y salir
+            luciendo tu mejor versión.
           </p>
 
           <p>
-            Nuestro equipo trabaja con compromiso, puntualidad y dedicación, utilizando
-            productos adecuados para lograr ambientes más frescos, higiénicos y cómodos
-            para ti, tu familia o tu lugar de trabajo.
+            Nuestro equipo está dedicado a cuidar cada detalle, desde el diseño de uñas
+            hasta el cabello, para resaltar tu estilo con delicadeza, técnica y buen gusto.
           </p>
         </div>
       </div>

@@ -15,11 +15,12 @@ export const Hero = () => {
 
       <div className="hero-content">
         <h1>
-          Servicio de Limpieza Profesional en <span>Maipú</span>
+          Salón de Peluquería y Manicura en<span>Maipú</span>
         </h1>
 
         <p>
-          Deja tus espacios impecables en manos de nuestro equipo. Ofrecemos servicios de limpieza para casas, departamentos, oficinas y espacios comerciales, con atención responsable, productos de calidad y resultados que se notan desde el primer momento.
+          Descubre una experiencia única en peluquería y manicura profesional. 
+          Cuidamos tu cabello, tus uñas y cada detalle de tu estilo con atención personalizada, productos de calidad y resultados impecables.
         </p>
 
         <div className="hero-buttons">
